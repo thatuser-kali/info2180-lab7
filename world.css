@@ -1,0 +1,77 @@
+/* Taken from w3-schools modal */
+
+body{
+    background-image: url("world.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    width: auto;
+    height: auto;
+}
+
+
+#contents{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    color: white;
+    background: rgba(1,1,1, 0.3);
+    opacity: .8;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+#controls input[type="text"]{
+    color: grey;
+    height: 1.8em;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+#controls button{
+    color: black;
+    background: white;
+    cursor: pointer;
+    height: 1.8em;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+/* The Modal (background) */
+#result {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fff;
+    margin: 10% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #000;
+    width: 80%; /* Could be more or less, depending on screen size */
+    color: #6f071a;
+}
+
+/* The Close Button */
+.off{
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.off:hover,
+.off:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
